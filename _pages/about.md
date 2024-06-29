@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Incoming PostDoc at the Fritz Haber Institute of the Max Plank Society, and 5th year Ph.D. Chemical Engineering Researcher with Prof. Mike Janik at Penn State University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: [Professional.2019.jpeg]
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ajwongphd@gmail.com</p>
+    <p>jaw6647@psu.edu</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an incoming Post Doctoral Scholar at the Fritz Haber Institute of the Max Plank Society working on computational heterogeneous (electro)catalysis and machine learning. I am passionate about using modern computational chemistry tools to advance technologies regarding renewable energy production and storage. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently a fifth year Ph.D. student at the Mike Janik lab here at Penn State University, where I joined Aug. 2019. I am an expert at using DFT methods to elucidate the complexities of the electrode-electrolyte interface to rationally design better electrocatalysts. My Ph.D. work has developed catalytic design principles in wastewater remediation by electrochemically reducing nitroaromatics, electrochemical conversion of CO$_2$, fuel cell chemistry, electro-oxidative upgrading of biomass molecules, and elucidating the roles of intermetallic alloys as electrocatalysts. At a more fundamental level, i've developed an analytical Grand Canonical DFT work flow to study cation effects and trhe role of specifically adsorbed ions as developed frameworks to rationally predict electrocatlaytic barriers with the assistance of classical molecular dynamics. I've also been grateful to collaborate with many great faculty across the U.S including Prof. Anne Co (Ohio State University), Prof. Adam Holewinski (University of Colorado at Boulder), Prof. Scott Milner (Penn State), Prof. Ezra Clark (Penn State), Prof. Chris Arges (Argonne National Lab), Prof. Matthias Waegele (Boston College), Prof. Bryan Goldsmith (University of Michigan), Prof. Craig Plaisance (Louisiana State University), and Dr. Lauren Greenlee (XPRIZE). I believe my experience working with multi-discpline teams with various expertise has prepared me to be a dependable and productive researcher. I also had the privledge to complete a summer internship at Lawrence Livermore National Laboratory, where I worked with Dr. Sneha Akhade and Dr. Chris Hahn to study the role of oxides in biomass electro-oxidation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time, I enjoy composing music, playing guitar, photography, traveling to try new foods, cooking, basketball, and playing both video and board games. I also am a cat dad to my grey cat, Lyla or "Pookie".
