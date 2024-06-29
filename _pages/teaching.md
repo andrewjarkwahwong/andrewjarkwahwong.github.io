@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching Experience
 description: Graduate and undergraduate course in Chemical Engineering at Penn State University and Texas A&M University
 nav: true
 nav_order: 6
