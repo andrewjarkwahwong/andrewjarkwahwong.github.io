@@ -80,7 +80,7 @@ jobs:
           bundle exec jekyll build --lsi
       - name: Purge unused CSS 🧹
         run: |
-          npm install -g purgecss
+          npm install --no-fund -g purgecss
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
