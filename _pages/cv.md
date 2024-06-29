@@ -3,9 +3,9 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 54
+cv_pdf: ajw_cv.pdf
+description: A pdf of my complete CV can be found at the top right icon.
 toc:
   sidebar: left
 ---
