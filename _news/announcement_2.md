@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-It still feels surreal that I passed my doctoral defense! Thank you to Mike, my committee (Prof. Ismaila Dabo, Prof. Rob Rioux, and Prof. Ray Schaak), and my friends/families for taking time to hear about my work.
+It still feels surreal that I passed my doctoral defense. Thank you to Mike, my committee (Prof. Ismaila Dabo, Prof. Rob Rioux, and Prof. Ray Schaak), and my friends/families for taking time to hear about my work.
 
 profile:
   align: center
