@@ -7,14 +7,11 @@ on:
       - main
     paths:
       - "assets/**"
-      - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
-      - "Gemfile"
-      - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -34,14 +31,11 @@ on:
       - main
     paths:
       - "assets/**"
-      - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
-      - "Gemfile"
-      - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -83,14 +77,13 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          bundle exec jekyll build --lsi
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
-        run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
-
-        
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
