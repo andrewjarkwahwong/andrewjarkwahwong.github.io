@@ -89,7 +89,8 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: _site
+        run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+                --src ${{ steps.setup.outputs.SRC_BRANCH }} 
+                --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+
+        
