@@ -2,112 +2,100 @@
   type: map
   contents:
     - name: Full Name
-      value: Zachary W. Ulissi
+      value: Andrew Jark-Wah Wong
     - name: Date of Birth
-      value: 1987
+      value: 22nd October 1996
     - name: Languages
-      value: English
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Scientist
-      institution: Meta Fundamental AI Research (FAIR)
-      year: 2023-present
-      description:
-        - AI for chemistry and catalysis
-    - title: Associate Professor of Chemical Engineering
-      institution: Carnegie Mellon University
-      year: 2022-present (on leave)
-      description:
-        - Machine learning for computational chemistry
-        - Engineering and discovery of catalysts and inorganic materials
-    - title: Assistant Professor of Chemical Engineering
-      institution: Carnegie Mellon University
-      year: 2017-2022
-      description:
-        - Machine learning for computational chemistry
-        - Engineering and discovery of catalysts and inorganic materials
-    - title: Postdoctoral Scholar
-      institution: Stanford University
-      year: 2015-2017
-      description:
-        - Postdoc with Jens Nørskov in computational catalysis
+      value: English, Vietnamese (Basic), German (Basic)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Massachusetts Institute of Technology
-      year: 2015
+    - title: Ph.D. in Chemical Engineering
+      institution: The Pennsylvania State University
+      year: Aug. 2019 - Aug. 2024
       description:
-        - Simulations and theory to describe carbon nanotube devices and sensors
-        - Systems engineering and parameter estimations for nanotube simulations
-    - title: M.A.St.
-      institution: Churchill College, Cambridge, UK
-      year: 2010
+        - Thesis: Electrocatalysis at the Atomic Scale,Complexities at the Electrode-Electrolyte Interface
+        - Advisor: Prof. Mike Janik
+        - Doctoral Minor: Computational Materials
+        - GPA: 3.87/4.0
+    - title: B.S. in Chemical Engineering
+      institution: Texas A&M University
+      year: Aug. 2015 - May 2019
       description:
-        - Applied math and fluid dynamics courses. 
-        - Research with Raymond Goldstein
-    - title: B.E/B.S.
-      institution: University of Delaware
-      year: 2009
-      description:
-        - B.E. in Chemical Engineering
-        - B.S. in Physics
+        - Honors: Magna Cum Laude
+        - Certificate: Engineering Therapeutics Manufacturing
+        - GPA: 3.87/4.0
+        - Undergrad. Research: Surface Enchanced Raman Spectroscopy and Development of Ag Surface Films for Sensor Applications
 
-- title: Open Source Projects
+- title: Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/Open-Catalyst-Project/">Open Catalyst Project</a>
-      year: 2020-now
-      description: The Open Catalyst Project builds open datasets and machine learning models to accelerate catalyst simulations.
+    - title: Post Doctoral Scholar
+      institution: Fritz Haber Institute of the Max Plank Society
+      year: Present
+      description:
+        - Advisor: Prof. Karsten Reuter
+        - Advancing simulations of heterogeneous of (electro)catalytic barriers
+   - title: Graduate Research Teaching Assistant and Intern
+      institution: The Pennsylvania State University
+      year: Aug. 2022 - Dec. 2023
+      description:
+        - Course (2023): ChE 535: Graduate Chemical Reaction Engineering
+        - Course (2022): ChE 430: Undergraduate Chemical Reaction Engineering
+    - title: Computational Chemistry and Material Science Summer Intern 
+      institution: Lawrence Livermore National Laboratory
+      year: May 2023 - Aug. 2023
+      description:
+        - Advisor: Dr. Sneha Akhade
+        - Developing design principles of oxides for as catalysts for electro-oxidation of biomass
+   - title: Undergraduate Teaching Assistant
+      institution: Texas A&M University
+      year: Aug. 2018 to Dec. 2018
+      description:
+        - Course: CHEN 204: Elementary Chemical Engineering
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022
-      items: 
-        - Dean's Early Career Fellow (CMU Engineering Award)
-    - year: 2021
-      items: 
-        - G.T. Ladd Research Award
-    - year: 2020
-      items: 
-        - 3M Non-Tenured Faculty Award (NTFA)
-        - ACS Petroleum Research Fund (PRF) doctoral new investigator
-    - year: 2019
-      items: 
-        - Scott Institute for Energy Innovation Fellow
-    - year: 2010-2014
-      items: 
-        - DOE CSGF Fellow
-    - year: 2009-2010
-      items: 
-        - NSF GRFP Fellow
+    - year: 2024
+      items:
+        - ACS ChemCatBio Award
+    - year: 2023
+      items:
+        - NAM Kokes Award
+    - year: 2016-2019
+      items:
+        - Dean's List
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Catalyst modeling and discovery
+    - title: Computational Heterogeneous (Electro)Catalysis
       items:
-        - Use of DFT to predict activity, selectivity, stability
-        - Active learning methods to systematically discover new catalysts
-        - Matching high-throughput calculations and experiments
-        - Electrochemical (CO2RR, HER, OER, ORR) and thermal catalysis (especially selective catalysis)
-    - title: Artificial Intelligence / Machine Learning
+        - DFT as a tool to predict activity, selectivity, and stability
+        - Influence of the electrode-electrolyte environment on catalytic rates and selectivity
+        - Active Site Complexities: alloys, oxides, and molecular catalysts
+        - Elucidating the role of ions and solvent in (electro)catalysis
+        - Developing models and frameworks for the rational design of (electro)catalysts
+    - title: Fundamental Properties of Solid-Liquid Interfaces
       items:
-        - Large graph neural networks to predict simulation data
-        - Fine-tuning and active learning to accelerate
-        - Uncertainty quantification
-        - Embedding of ML models in heuristic optimization systems
-    - title: Nanotechnology
+        - Classical Molecular Dynamics
+        - Solvation 
+        - Interfacial Reorganization
+        - Electric Fields
+    - title: Machine Learning / Artificial Intelligence
       items:
-        - Carbon nanotube devices and sensors
-        - Interfacial phenomena
-        - Classical molecular dynamics simulations
+        - Material screening of large design spaces
+        - Training machine learning potentials to accelerate simulations
+        - High-throughput Calculations
+    - title: Inclusive Education
+      items:
+        - Education to support underrepresentative groups
+        - Coding and computational frameworks in education
+        - Collaborative and engaging education plans
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Cycling, cooking, traveling, outdoors, hiking
+    - <u>Hobbies:</u> Composing music, guitar, video games, cooking, board games, DnD, photography, traveling, basketball, and being a cat dad
