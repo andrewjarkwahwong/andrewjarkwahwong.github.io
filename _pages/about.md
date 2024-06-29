@@ -6,7 +6,7 @@ subtitle: <a href='#'>Incoming PostDoc at the Fritz Haber Institute of the Max P
 
 profile:
   align: right
-  image: [Professional.2019.jpeg]
+  image: Professional.2019.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ajwongphd@gmail.com</p>
