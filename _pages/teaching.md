@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Graduate and undergraduate course in Chemical Engineering at Penn State University and Texas A&M University
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Courses at Penn State I was a TA for:
+* ChE 535: Graduate Chemical Reaction Engineering (Fall 2018)
+  * I co-taught and lectured for approximately 30 first year Ph.D. chemical engineering students.
+* ChE 430: Undergraduate Chemical Reaction Engineering (Fall 2018)
+  * I co-taught and designed both exams and lecture problem sets for approximately 70 undergraduate chemical engineering students.
 
-Organize your courses by years, topics, or universities, however you like!
+Courses at Texas A&M University I was a TA for:
+* CHEN 204: Elementary Chemical Engineering (Fall 2018)
+  * I co-taught and led recitation to over 200 undergraduate chemical engineering students.
