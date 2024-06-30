@@ -15,17 +15,15 @@
       institution: The Pennsylvania State University
       year: 2019-2024
       description:
-        - Dissertation Title: Electrocatalysis at the atomic scale. Complexities at the electrode-electrolyte interface
-        - Advisor: Prof. Mike Janik
-        - Doctoral Minor: Computational Materials
-        - GPA: 3.87/4.0
+        - Studied with Prof. Mike Janik to investigate electrocatalysis at the atomic scale and complexities at the electrode-electrolyte interface
+        - Obtained Doctoral Minor in Computational Materials
     - title: B.S. in Chemical Engineering
       institution: Texas A&M University
       year: 2015-2019
       description:
-        - Honors: Magna Cum Laude
-        - Certificate: Engineering Therapeutics Manufacturing
-        - GPA: 3.7/4.0
+        - Graduated as Magna Cum Laude
+        - Undergraduate research with Dr. Hung-Jen Wu to study Ag based nanofilms using Surface Enhanced Raman Spectroscopy for sensor applications
+        - Obtained certificate in Engineering Therapeutics Manufacturing
 
 - title: Experience
   type: time_table
@@ -34,14 +32,12 @@
       institution: Fritz Haber Institut of the Max Plank Society
       year: Present
       description:
-        - Advisor: Karsten Reuter
-        - Computational (electro)catalysis and machine learning
+        - Studying with Prof. Dr. Karsten Reuter on computational (electro)catalysis and machine learning
     - title: Computational Chemistry and Material Science Summer Intern
       institution: Lawrence Livermore National Laboratory
       year: 2023
       description:
-        - Advisor: Dr. Sneha Akhade
-        - DFT investigation of oxide surfaces as electro-oxidative catalysts for biomass conversion
+        - Studied with Dr. Sneha Akhade to utilize DFT to investigate oxide surfaces as electro-oxidative catalysts for biomass conversion
 
 - title: Honors and Awards
   type: time_table
@@ -61,14 +57,28 @@
   contents:
     - title: Computational Heterogeneous (Electro)Catalysis
       items:
-        - 
+        - DFT to evaluate activity, selectivity, and stability of heterogeneous (electro)catalysis
+        - DFT and electrochemical double layer theory approaches to study electrocatalytic rates and specific cation adsorption
+        - Elucidating the role of ions and solvent molecules during electrocatalytic reactions
+        - Extensive collaboration with experimental groups to validate models and develop catalytic design principles
     - title: Fundamental Properties of Solid-Liquid Interfaces
       items:
-        - Description 1.
+        - Classical Molecular Dynamic Simulations 
+        - Interfacial reconstruction 
+        - Elucidating the anisotropic distribution of ions and dielectric within an interface
+        - DFT + MD model of solid-liquid interfaces
     - title: Machine Learning in Material Screening
-
+          items:
+        - Screening of materials across large design space based on activity, selectivity, and stability descriptors
+        - Machine learning potentials to accelerate DFT calculations
+    - title: Inclusive Education
+          items:
+        - Engaging underrepresented communities through STEM education
+        - Extensive background in collaborative and engaging education curriculum in engineering
+        - Introduction of computational work flows and coding to engineering curriculum
+    
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Composing music, playing guitar, board games, video games, DnD, basketball, yoga, photography, traveling, trying new foods, and being a cat dad.
