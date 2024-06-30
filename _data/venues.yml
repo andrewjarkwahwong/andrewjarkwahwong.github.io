@@ -1,9 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ECat/Methods":
+  color: "#cc0000"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Electrocatalysis (ECat)":
+  color: "#3465a4"
 
-"Vision":
-  color: "#009f36"
+"ECat/CO2":
+  color: "#75507b"
+
+"ECat/FuelCells":
+  color: "#73d216"
+
