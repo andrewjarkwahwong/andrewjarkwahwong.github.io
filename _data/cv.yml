@@ -56,27 +56,10 @@
   type: nested_list
   contents:
     - title: Computational Heterogeneous (Electro)Catalysis
-      items:
-        - DFT to evaluate activity, selectivity, and stability of heterogeneous (electro)catalysis
-        - DFT and electrochemical double layer theory approaches to study electrocatalytic rates and specific cation adsorption
-        - Elucidating the role of ions and solvent molecules during electrocatalytic reactions
-        - Extensive collaboration with experimental groups to validate models and develop catalytic design principles
     - title: Fundamental Properties of Solid-Liquid Interfaces
-      items:
-        - Classical Molecular Dynamic Simulations 
-        - Interfacial reconstruction 
-        - Elucidating the anisotropic distribution of ions and dielectric within an interface
-        - DFT + MD model of solid-liquid interfaces
     - title: Machine Learning in Material Screening
-          items:
-        - Screening of materials across large design space based on activity, selectivity, and stability descriptors
-        - Machine learning potentials to accelerate DFT calculations
     - title: Inclusive Education
-          items:
-        - Engaging underrepresented communities through STEM education
-        - Extensive background in collaborative and engaging education curriculum in engineering
-        - Introduction of computational work flows and coding to engineering curriculum
-    
+
 
 - title: Other Interests
   type: list
