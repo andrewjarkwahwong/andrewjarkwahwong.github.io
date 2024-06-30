@@ -2,10 +2,10 @@
   type: map
   contents:
     - name: Full Name
-      value: Jark-Wah (Andrew) Wong
+      value: Andrew Jark-Wah Wong
     - name: Date of Birth
-      value: October 22nd 1996
-    - name: Language
+      value: 1987
+    - name: Languages
       value: English
 
 - title: Education
@@ -51,22 +51,22 @@
         - ACS ChemCatBio Award
     - year: 2023
       items:
-        - NAM Koke's Award
+        - NAM Kokes Award
     - year: 2016-2019
       items:
-        - Dean's List
+        - Deans List
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computational Heterogeneous (Electro)Catalysis
+      items:
+        - 
+    - title: Fundamental Properties of Solid-Liquid Interfaces
       items:
         - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Machine Learning in Material Screening
+
 
 - title: Other Interests
   type: list
