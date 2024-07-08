@@ -10,7 +10,7 @@ It still feels surreal that I passed my doctoral defense. Thank you to Mike, my 
 
 profile:
   align: center
-  image: [DEFENSE.jpeg]
+  image: [![DEFENSE.jpeg](../assets/img/DEFENSE.jpeg)]
   image_circular: false # crops the image to make it circular
 
 The title of my disseration was "Electrocatalysis at the atomic scale: complextities at the electrode-electrolyte interface".
@@ -25,11 +25,7 @@ The completion of my Ph.D. is not possible without the brilliant academics and l
 
 profile:
   align: center
-  image: [DEFENSE_TY.jpeg]
+  image: [![DEFENSE1.jpeg](../assets/img/DEFENSE1.jpeg)]
   image_circular: false # crops the image to make it circular
 
 Outside of my academic circle, my girlfriend, friends, family, and my cat has been supportive network that has supported me through my Ph.D. and life. 
-
-The last quote always pushed me to work as hard as I can and stay motivated.
-> "Job's finished? Job's not finished. I dont think so."
-> —Kobe Bryant
