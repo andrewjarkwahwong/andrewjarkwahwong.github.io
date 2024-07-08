@@ -12,25 +12,28 @@ The goal of this blog post is to <ins>Calculate potential and pH-dependent equil
 
 # Review: pKa and pH
 
-The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant (K$_a$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
+The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant ($K_a$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
 
-$$ HA_{(aq)} \leftrightarrow A^-_{(aq)} + H^+_{(aq)} $$ 
+$$ HA \leftrightarrow H^+ + A^- $$
 
-where A$^-$ is the conjugate base of the acid and H$^+$ is the proton in solution. The equilibrium constant, K$_a$, is defined as:
+where $A^-$ is the conjugate base of the acid and $H^+$ is the proton in solution. All species are in the solution-phase for clarity. The equilibrium constant, $K_a$, is defined as:
 
 
-$$ K_a = \frac{[A^-][H^+]}{[HA]}$$
+$$
+K_a = \frac{[A^-][H^+]}{[HA]}
+$$
 
-where a higher K$_a$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
+where a higher $K_a$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
 
 $$ pK_a = -log_{10}K_a$$
 
-where this convenient scale defines lower pK$_a$ as stronger acids (larger K$_a$).
+where this convenient scale defines lower $pK_a$ as stronger acids (larger $K_a$).
 
 ## Ideality and Activities
 Note that ideality was assumed, where concentrations are sufficient $[X]$. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions [https://en.wikipedia.org/wiki/Acid_dissociation_constant].
 
-![[Pasted image 20240708122308.png]]
+![PK_acetic_acid.png](../assets/img/PK_acetic_acid.png)
+
 The activity, $\alpha$ , is a measure of the "effective concentration" or "real concentration". In the simplest form, the activity of any species at equilibrium is defined as:
 
 $$ \{X\}=[X]\gamma_X$$
