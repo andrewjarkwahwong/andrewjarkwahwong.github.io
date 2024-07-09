@@ -17,21 +17,21 @@ The adsorption of anions are dependent on the pH of the solution. The acid disso
 
 $$ HA_{(aq)} \leftrightarrow A^-_{(aq)} + H^+_{(aq)} $$
 
-where A$^-$ is the conjugate base of the acid and $H^+$ is the proton in solution. All species are in the solution-phase for clarity. The equilibrium constant, K$_a$, is defined as:
+where $$A^-$$ is the conjugate base of the acid and $$H^+$$ is the proton in solution. All species are in the solution-phase for clarity. The equilibrium constant, $$K_a$$, is defined as:
 
 
 $$
 K_a = \frac{[A^-][H^+]}{[HA]}
 $$
 
-where a higher K$_a$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
+where a higher $$K_a$$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
 
 $$ pK_a = -log_{10}K_a$$
 
-where this convenient scale defines lower pK$_a$ as stronger acids (larger $K_a$).
+where this convenient scale defines lower pK$$_a$$ as stronger acids (larger $$K_a$$).
 
 ## Ideality and Activities
-Note that ideality was assumed, where concentrations are sufficient [X]. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions [https://en.wikipedia.org/wiki/Acid_dissociation_constant].
+Note that ideality was assumed, where concentrations are sufficient [X]. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,9 +44,9 @@ The activity is a measure of the "effective concentration" or "real concentratio
 
 $$ \{X\}=[X]\gamma_X$$
 
-where the general form of the activity of any species is given as {X}. The activity coefficient measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
+where the general form of the activity of any species is given as {X}. The activity coefficient,$$\gamma$$, measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
 
-K$_a$ can be corrected by using the activity coefficients of each species can be corrected to account for the non-ideality of the solution as follows:
+K$$_a$$ can be corrected by using the activity coefficients of each species can be corrected to account for the non-ideality of the solution as follows:
 
 $$ K^\Theta = K_a\Gamma = K_a\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}=\frac{[A^-][H^+]}{[HA]}\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}$$
 
@@ -54,7 +54,7 @@ where $$\Gamma$$ is the activity quotient for the reaction. Henry's and Raoult's
 
 
 ## Proton Affinity
-Note that K$_a$ requires the knowledge of the enthalpic, entropic, and solvation contributions during the dissociation of an acid. A simple metric based on purely the enthalpic components is the proton affinity defined as:
+Note that K$$_a$$ requires the knowledge of the enthalpic, entropic, and solvation contributions during the dissociation of an acid. A simple metric based on purely the enthalpic components is the proton affinity defined as:
 
 $$ HA_{(g)} \rightarrow A^-_{(g)} + H^+_{(g)} $$
 
@@ -62,14 +62,14 @@ where all species are in the gas-phase rather than bulk solution. This is proton
 
 $$ E_{PA}=E_{A^-_{(g)}} + E_{H^+_{(g)}} - E_{HA_{(g)}}$$
 
-where larger proton affinities, (More stable HA and less stable $A^-$ ) means stronger base or weaker acid. Note that the energies of each species are not written as free energies. 
+where larger proton affinities, (More stable HA and less stable $$A^-$$ ) means stronger base or weaker acid. Note that the energies of each species are not written as free energies. 
 # Equilibrium Potentials of Anion Specific Adsorption
 
 Specific adsorption of anions are dependent on the pH of the solution. We derive the equilibrium adsorption potential for both high and low pH solutions relative to the pKa of the anion of interest. 
 
 ## High pH Case
 
-When the pH is higher than the pKa, HA has dissociated into $A^-$. Anions ($A^-$) specifically adsorb on a metal surface describe by the following reaction:
+When the pH is higher than the pKa, HA has dissociated into $$A^-$$. Anions specifically adsorb on a metal surface describe by the following reaction:
 
 $$ A^-_{(aq)}+ * \rightarrow A^*_{(aq)} + e^-$$
 
@@ -77,11 +77,11 @@ where the aqueous anion undergoes electron transfer upon adsorption and (partial
 
 $$\Delta G_{ads}(U_{abs})=G_{A^*_{(aq)}} + G_{e^-} - G_{A^-_{(aq)}} - G_{*_{(aq)}}$$ 
 
-The free energy change of the adsorbed anion, $A^*$ is generally defined as:
+The free energy change of the adsorbed anion, $$A^*$$ is generally defined as:
 
 $$ G_{i_{(g)}} = E_{i,DFT} + E_{ZPVE} + TS_{vib}$$
 
-where the DFT Enthalpy at 0 K is $E_i$, the zero point energy is $E_{ZPVE}$ , and$TS_{vib}$ is the entropic corrections. At a first approximation, the latter two terms are determined from DFT from both a harmonic oscillator approximation and vibrational calculations. 
+where the DFT Enthalpy at 0 K is $$E_i$$, the zero point energy is $$E_{ZPVE}$$ , and $$TS_{vib}$$ is the entropic corrections. At a first approximation, the latter two terms are determined from DFT from both a harmonic oscillator approximation and vibrational calculations. 
 
 Approximating the solvation free energy change during specific adsorption is challenging. Here, we define the solvation free energy change for specific anion adsorption as:
 
@@ -91,21 +91,21 @@ where the solvation energy of each species is generally defined as:
 
 $$\Delta G_{solv,i} = G_{i_{(aq)}}-G_{i_{(g)}}$$
 
-The solvation energy of $A^-$ in theory should be potential-independent as it is in the bulk solution far away from the electrode. The solvation energy of $A^*$ and the bare metal can be potential-dependent and are ill-defined.
+The solvation energy of $$A^-$$ in theory should be potential-independent as it is in the bulk solution far away from the electrode. The solvation energy of $$A^*$$ and the bare metal can be potential-dependent and are ill-defined.
 Here, we assume these solvation contributions are potential-independent to rewrite the free energy change of specific anion adsorption as:
 
 $$\Delta G_{ads}(U_{abs})=G_{A^*_{(g)}} + G_{e^-} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}$$
 
 Note that the free energy of the electron is simply defined as:
 $$G_{e^-}=-|e|U_{abs}$$
-where e is the electron charge and the $U$$_{abs}$ is the electrode on the absolute potential. 
-The equilibrium potential, $U$$^0$ is insightful in predicting the potential at which anions would adsorb. This occurs when the free energy change of adsorption is at zero defined as: 
+where e is the electron charge and the $$U_{abs}$$ is the electrode on the absolute potential. 
+The equilibrium potential, $$U^0$$ is insightful in predicting the potential at which anions would adsorb. This occurs when the free energy change of adsorption is at zero defined as: 
 
 $$\Delta G_{ads}(U^0_{abs})=0=G_{A^*_{(g)}} -|e|U^0_{abs} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}$$
 
 $$U^0_{abs}=\frac{G_{A^*_{(g)}} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}}{|e|}$$
 
-where $U$$^0$$_{abs}$ is the equilibrium potential on the absolute scale. Experimental electrochemical measurements are not relative the absolute scale (electron in vacuum) but, for example, to the standard hydrogen electrode. The equilibrium potential on an absolute scale can simply be converted to a relevant potential by defining:
+where $$U^0_{abs}$$ is the equilibrium potential on the absolute scale. Experimental electrochemical measurements are not relative the absolute scale (electron in vacuum) but, for example, to the standard hydrogen electrode. The equilibrium potential on an absolute scale can simply be converted to a relevant potential by defining:
 
 $$U^0_{SHE} = U^0_{abs} + \Delta U_{abs \rightarrow SHE}$$
 
@@ -138,14 +138,14 @@ $$\Delta G_{ads}(U^0_{abs})= 0=G_{A^*_{(aq)}} -|e|U^0_{abs} + G_{H^+}- G_{HA_{(a
 
 $$U^0_{abs}=\frac{G_{A^*_{(aq)}} + G_{H^+}- G_{HA_{(aq)}} - G_{*}}{|e|} $$
 
-which $U$$^0$ can be converted to the SHE scale as defined previously.  
+which $$U^0$$ can be converted to the SHE scale as defined previously.  
 ### The Computational Hydrogen Electrode (RHE)
 
 An alternative method to determining the free energy of the proton in bulk solution is to use the Computational Hydrogen Electrode (CHE) Approach, which uses the well-defined reversible hydrogen electrode (RHE). This defines the free energy or chemical potential of both the proton in bulk solution and electron as:
 
 $$\mu_{H^+} +\mu_{e^+} = \frac{1}{2}G_{H_2,(g)} - |e|U_{RHE} $$ 
 
-where it utilizes the fact that protons and electrons are at equilibrium with $H_2$ gas at 0 V-RHE. The latter term accounts for the linear deviation from this 0 V-RHE. 
+where it utilizes the fact that protons and electrons are at equilibrium with $$H_2$$ gas at 0 V-RHE. The latter term accounts for the linear deviation from this 0 V-RHE. 
 
 We can determine the equilibrium adsorption potential using the CHE approach as follows:
 
@@ -164,16 +164,6 @@ Now the low-pH (pH dependent) and the high pH (non-pH dependent) cases of anion 
 ## Visual aid of conceptualizing equilibrium adsorption potential
 The following Jupyter notebook visually shows how varying the equilibrium adsorption potential introduces new potential regimes where anions can adsorb (the green).
 
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/AnionEqAds.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/AnionEqAds.ipynb %}{% endcapture %}
-{% if notebook_exists == "true" %}
-{% jupyter_notebook jupyter_path %}
-{% else %}
-
-<p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
 
 ## Considerations of the Electrochemical Double Layer and Constant Potential
 
