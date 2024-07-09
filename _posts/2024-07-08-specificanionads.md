@@ -161,9 +161,6 @@ $$U^0_{SHE} = U^0_{RHE} + 0.059pH$$
 
 Now the low-pH (pH dependent) and the high pH (non-pH dependent) cases of anion adsorption can be calculated. 
 
-## Visual aid of conceptualizing equilibrium adsorption potential
-The following Jupyter notebook visually shows how varying the equilibrium adsorption potential introduces new potential regimes where anions can adsorb (the green).
-
 
 ## Considerations of the Electrochemical Double Layer and Constant Potential
 
