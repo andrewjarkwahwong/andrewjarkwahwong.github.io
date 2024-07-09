@@ -13,7 +13,7 @@ The goal of this blog post is to <ins>Calculate potential and pH-dependent equil
 
 # Review: pKa and pH
 
-The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant ($$K_a$$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
+The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant, Ka, is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
 
 $$ HA_{(aq)} \leftrightarrow A^-_{(aq)} + H^+_{(aq)} $$
 
@@ -24,11 +24,11 @@ $$
 K_a = \frac{[A^-][H^+]}{[HA]}
 $$
 
-where a higher $$K_a$$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
+where a higher Ka corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
 
 $$ pK_a = -log_{10}K_a$$
 
-where this convenient scale defines lower pK$$_a$$ as stronger acids (larger $$K_a$$).
+where this convenient scale defines lower pK$$_a$$ as stronger acids (larger Ka).
 
 ## Ideality and Activities
 Note that ideality was assumed, where concentrations are sufficient [X]. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions.
@@ -46,7 +46,7 @@ $$ \{X\}=[X]\gamma_X$$
 
 where the general form of the activity of any species is given as {X}. The activity coefficient,$$\gamma$$, measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
 
-K$$_a$$ can be corrected by using the activity coefficients of each species can be corrected to account for the non-ideality of the solution as follows:
+Ka can be corrected by using the activity coefficients of each species can be corrected to account for the non-ideality of the solution as follows:
 
 $$ K^\Theta = K_a\Gamma = K_a\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}=\frac{[A^-][H^+]}{[HA]}\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}$$
 
@@ -54,7 +54,7 @@ where $$\Gamma$$ is the activity quotient for the reaction. Henry's and Raoult's
 
 
 ## Proton Affinity
-Note that K$$_a$$ requires the knowledge of the enthalpic, entropic, and solvation contributions during the dissociation of an acid. A simple metric based on purely the enthalpic components is the proton affinity defined as:
+Note that Ka requires the knowledge of the enthalpic, entropic, and solvation contributions during the dissociation of an acid. A simple metric based on purely the enthalpic components is the proton affinity defined as:
 
 $$ HA_{(g)} \rightarrow A^-_{(g)} + H^+_{(g)} $$
 
