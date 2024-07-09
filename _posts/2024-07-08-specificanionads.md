@@ -57,14 +57,14 @@ where all species are in the gas-phase rather than bulk solution. This is proton
 
 $$ E_{PA}=E_{A^-_{(g)}} + E_{H^+_{(g)}} - E_{HA_{(g)}}$$
 
-where larger proton affinities, (More stable HA and less stable A$^-$ ) means stronger base or weaker acid. Note that the energies of each species are not written as free energies. 
+where larger proton affinities, (More stable HA and less stable $A^-$ ) means stronger base or weaker acid. Note that the energies of each species are not written as free energies. 
 # Equilibrium Potentials of Anion Specific Adsorption
 
 Specific adsorption of anions are dependent on the pH of the solution. We derive the equilibrium adsorption potential for both high and low pH solutions relative to the pKa of the anion of interest. 
 
 ## High pH Case
 
-When the pH is higher than the pKa, HA has dissociated into A$^-$. Anions (A$^-$) specifically adsorb on a metal surface describe by the following reaction:
+When the pH is higher than the pKa, HA has dissociated into $A^-$. Anions ($A^-$) specifically adsorb on a metal surface describe by the following reaction:
 
 $$ A^-_{(aq)}+ * \rightarrow A^*_{(aq)} + e^-$$
 
@@ -72,11 +72,11 @@ where the aqueous anion undergoes electron transfer upon adsorption and (partial
 
 $$\Delta G_{ads}(U_{abs})=G_{A^*_{(aq)}} + G_{e^-} - G_{A^-_{(aq)}} - G_{*_{(aq)}}$$ 
 
-The free energy change of the adsorbed anion, A$^*$ is generally defined as:
+The free energy change of the adsorbed anion, $A^*$ is generally defined as:
 
 $$ G_{i_{(g)}} = E_{i,DFT} + E_{ZPVE} + TS_{vib}$$
 
-where the DFT Enthalpy at 0 K is E$_i$, the zero point energy is E$_{ZPVE}$ , and TS$_{vib}$ is the entropic corrections. At a first approximation, the latter two terms are determined from DFT from both a harmonic oscillator approximation and vibrational calculations. 
+where the DFT Enthalpy at 0 K is $E_i$, the zero point energy is $E_{ZPVE}$ , and$TS_{vib}$ is the entropic corrections. At a first approximation, the latter two terms are determined from DFT from both a harmonic oscillator approximation and vibrational calculations. 
 
 Approximating the solvation free energy change during specific adsorption is challenging. Here, we define the solvation free energy change for specific anion adsorption as:
 
@@ -86,15 +86,15 @@ where the solvation energy of each species is generally defined as:
 
 $$\Delta G_{solv,i} = G_{i_{(aq)}}-G_{i_{(g)}}$$
 
-The solvation energy of A$^-$ in theory should be potential-independent as it is in the bulk solution far away from the electrode. The solvation energy of A$^*$ and the bare metal can be potential-dependent and are ill-defined.
+The solvation energy of A$^-$ in theory should be potential-independent as it is in the bulk solution far away from the electrode. The solvation energy of $A^*$ and the bare metal can be potential-dependent and are ill-defined.
 Here, we assume these solvation contributions are potential-independent to rewrite the free energy change of specific anion adsorption as:
 
 $$\Delta G_{ads}(U_{abs})=G_{A^*_{(g)}} + G_{e^-} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}$$
 
 Note that the free energy of the electron is simply defined as:
 $$G_{e^-}=-|e|U_{abs}$$
-where e is the electron charge and the U$_{abs}$ is the electrode on the absolute potential. 
-The equilibrium potential, U$^0$ is insightful in predicting the potential at which anions would adsorb. This occurs when the free energy change of adsorption is at zero defined as: 
+where e is the electron charge and the $U_{abs}$ is the electrode on the absolute potential. 
+The equilibrium potential, $U^0$ is insightful in predicting the potential at which anions would adsorb. This occurs when the free energy change of adsorption is at zero defined as: 
 
 $$\Delta G_{ads}(U^0_{abs})=0=G_{A^*_{(g)}} -|e|U^0_{abs} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}$$
 
@@ -124,7 +124,7 @@ Less derivations will be shown but it is important to define the free energy of 
 
 ### Defining the Proton's Gibbs Free Energy (SHE):
 
-In it's simplest form, the free energy of the proton in bulk solution is defined as:
+In it's simplest form for pH-independence, the free energy of the proton in bulk solution is defined as:
 $$ G_{H^+_{(aq)}} = G_{H^+_{(g)}} + \Delta G_{H^+,solv}$$ 
 
 This value carries uncertainty as it is highly dependent on the free energy of the proton, which is challenging to quantify experimentally and requires thermodynamic assumptions. Regardless, the equilibrium adsorption potential on an SHE scale can be calculated as 
@@ -140,7 +140,7 @@ An alternative method to determining the free energy of the proton in bulk solut
 
 $$\mu_{H^+} +\mu_{e^+} = \frac{1}{2}G_{H_2,(g)} - |e|U_{RHE} $$ 
 
-where it utilizes the fact that protons and electrons are at equilibrium with H$_2$ gas at 0 V-RHE. The latter term accounts for the linear deviation from this 0 V-RHE. 
+where it utilizes the fact that protons and electrons are at equilibrium with $H_2$ gas at 0 V-RHE. The latter term accounts for the linear deviation from this 0 V-RHE. 
 
 We can determine the equilibrium adsorption potential using the CHE approach as follows:
 
@@ -153,6 +153,7 @@ where the equilibrium adsorption potential is determined on a RHE scale. The RHE
 $$U^0_{RHE} = U^0_{SHE} - 0.059pH$$
 
 $$U^0_{SHE} = U^0_{RHE} + 0.059pH$$
+
 Now the low-pH (pH dependent) and the high pH (non-pH dependent) cases of anion adsorption can be calculated. 
 
 ## Considerations of the Electrochemical Double Layer and Constant Potential
