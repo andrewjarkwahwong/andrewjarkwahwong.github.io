@@ -13,7 +13,7 @@ The goal of this blog post is to <ins>Calculate potential and pH-dependent equil
 
 # Review: pKa and pH
 
-The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant (K$_a$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
+The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant ($$K_a$$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
 
 $$ HA_{(aq)} \leftrightarrow A^-_{(aq)} + H^+_{(aq)} $$
 
