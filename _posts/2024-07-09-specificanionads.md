@@ -5,9 +5,10 @@ date: 2024-07-09 11:12:00-0400
 description: Basics of Calculating the Equilibrium Potential of Specific Anion Adsorption
 tags: DFT Ions
 categories: ion-adsorption
-related_posts: false
+related_posts: true
 featured: true
 ---
+
 # Overview:
 The goal of this blog post is to <ins>Calculate potential and pH-dependent equilibrium potentials of anion specific adsorption on metals using DFT.</ins>
 
@@ -110,13 +111,14 @@ where the equilibrium adsorption potential is determined on a RHE scale. The RHE
 $$U^0_{RHE} = U^0_{SHE} - 0.059pH$$
 $$U^0_{SHE} = U^0_{RHE} + 0.059pH$$
 Now the low-pH (pH dependent) and the high pH (non-pH dependent) cases of anion adsorption can be calculated. 
-## Python Script: Visualizing Anion Adsorption using the Equilibrium Adsorption Potential
+
+# Python Script: Visualizing Anion Adsorption using the Equilibrium Adsorption Potential
 
 I have created a Google Colab link you can check out to play with a simple script to visualize anion adsorption regimes and how the equilibrium adsorption potenital relates. 
 
 [The GoogleColab Notebook can be accessed here.](https://colab.research.google.com/drive/17M9gAGZCiIyxxdshJ-f6leRZQpKLwpFI?usp=sharing)
 
-## Considerations of the Electrochemical Double Layer and Constant Potential
+# Considerations of the Electrochemical Double Layer and Constant Potential
 
 Here, the simulations are performed at constant charge (fixed number of electrons), where in experimental set ups are performed at constant potential (varying number of electrons). These can be corrected using Grand Canonical DFT approaches. 
 
