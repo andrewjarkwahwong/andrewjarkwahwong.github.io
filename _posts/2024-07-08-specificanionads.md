@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting Equilibrium Potentials of Specific Anion Adsorption 
+title: Specific Anion Adsorption: Equilibrium Potentials
 date: 2024-07-08 11:12:00-0400
 description: Calculating Equilibrium Potential of Specific Anion Adsorption 
 tags: DFT Ions
