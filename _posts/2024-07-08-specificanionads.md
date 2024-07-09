@@ -86,21 +86,21 @@ where the solvation energy of each species is generally defined as:
 
 $$\Delta G_{solv,i} = G_{i_{(aq)}}-G_{i_{(g)}}$$
 
-The solvation energy of A$^-$ in theory should be potential-independent as it is in the bulk solution far away from the electrode. The solvation energy of $A^*$ and the bare metal can be potential-dependent and are ill-defined.
+The solvation energy of $A^-$ in theory should be potential-independent as it is in the bulk solution far away from the electrode. The solvation energy of $A^*$ and the bare metal can be potential-dependent and are ill-defined.
 Here, we assume these solvation contributions are potential-independent to rewrite the free energy change of specific anion adsorption as:
 
 $$\Delta G_{ads}(U_{abs})=G_{A^*_{(g)}} + G_{e^-} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}$$
 
 Note that the free energy of the electron is simply defined as:
 $$G_{e^-}=-|e|U_{abs}$$
-where e is the electron charge and the $U_{abs}$ is the electrode on the absolute potential. 
-The equilibrium potential, $U^0$ is insightful in predicting the potential at which anions would adsorb. This occurs when the free energy change of adsorption is at zero defined as: 
+where e is the electron charge and the $U$$_{abs}$ is the electrode on the absolute potential. 
+The equilibrium potential, $U$$^0$ is insightful in predicting the potential at which anions would adsorb. This occurs when the free energy change of adsorption is at zero defined as: 
 
 $$\Delta G_{ads}(U^0_{abs})=0=G_{A^*_{(g)}} -|e|U^0_{abs} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}$$
 
 $$U^0_{abs}=\frac{G_{A^*_{(g)}} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}}{|e|}$$
 
-where $U^0_{abs}$ is the equilibrium potential on the absolute scale. Experimental electrochemical measurements are not relative the absolute scale (electron in vacuum) but, for example, to the standard hydrogen electrode. $U^0_{abs}$ can simply be converted to a relevant potential by defining:
+where $U$$^0$$_{abs}$ is the equilibrium potential on the absolute scale. Experimental electrochemical measurements are not relative the absolute scale (electron in vacuum) but, for example, to the standard hydrogen electrode. The equilibrium potential on an absolute scale can simply be converted to a relevant potential by defining:
 
 $$U^0_{SHE} = U^0_{abs} + \Delta U_{abs \rightarrow SHE}$$
 
@@ -133,7 +133,7 @@ $$\Delta G_{ads}(U^0_{abs})= 0=G_{A^*_{(aq)}} -|e|U^0_{abs} + G_{H^+}- G_{HA_{(a
 
 $$U^0_{abs}=\frac{G_{A^*_{(aq)}} + G_{H^+}- G_{HA_{(aq)}} - G_{*}}{|e|} $$
 
-which $U^0_{abs}$  can be converted to $U^0_{SHE}$ as previously defined.  
+which $U$$^0$ can be converted to the SHE scale as defined previously.  
 ### The Computational Hydrogen Electrode (RHE)
 
 An alternative method to determining the free energy of the proton in bulk solution is to use the Computational Hydrogen Electrode (CHE) Approach, which uses the well-defined reversible hydrogen electrode (RHE). This defines the free energy or chemical potential of both the proton in bulk solution and electron as:
