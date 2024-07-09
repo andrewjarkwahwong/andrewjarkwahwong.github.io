@@ -26,7 +26,7 @@ where this convenient scale defines lower pK$_a$ as stronger acids (larger K$_a$
 Note that ideality was assumed, where concentrations are sufficient $[X]$. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions.
 
 <div class="row mt-3">
-    <div class="col-sm-5 col-md-3 mt-3 mt-md-0">
+    <div class="col-sm-3 col-md-1 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="/assets/img/PK_acetic_acid.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
