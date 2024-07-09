@@ -22,9 +22,14 @@ $$ pK_a = -log_{10}K_a$$
 where this convenient scale defines lower pK$_a$ as stronger acids (larger K$_a$).
 
 ## Ideality and Activities
-Note that ideality was assumed, where concentrations are sufficient $[X]$. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions [https://en.wikipedia.org/wiki/Acid_dissociation_constant].
+Note that ideality was assumed, where concentrations are sufficient $[X]$. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions.
 
-![[Pasted image 20240708122308.png]]
+<div class="row mt-3">
+    <div class="col-sm-5 col-md-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/PK_acetic_acid.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 The activity, $\alpha$ , is a measure of the "effective concentration" or "real concentration". In the simplest form, the activity of any species at equilibrium is defined as:
 $$ \{X\}=[X]\gamma_X$$
 
