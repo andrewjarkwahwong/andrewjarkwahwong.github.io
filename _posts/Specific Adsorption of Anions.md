@@ -4,8 +4,9 @@ title: Predicting Equilibrium Potentials of Specific Anion Adsorption
 date: 2024-07-08 11:12:00-0400
 description: Calculating Equilibrium Potential of Specific Anion Adsorption 
 tags: DFT Ions
-categories: sample-posts
+categories: ion-adsorption
 related_posts: false
+featured: true
 ---
 # Overview:
 The goal of this blog post is to <ins>Calculate potential and pH-dependent equilibrium potentials of anion specific adsorption on metals using DFT.</ins>
