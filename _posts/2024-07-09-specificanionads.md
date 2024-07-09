@@ -34,7 +34,7 @@ Note that ideality was assumed, where concentrations are sufficient $[X]$. In a 
 The activity, $\alpha$ , is a measure of the "effective concentration" or "real concentration". In the simplest form, the activity of any species at equilibrium is defined as:
 $$ \{X\}=[X]\gamma_X$$
 
-where the general form of the activity of any species is given as $\{X\}$ and the activity coefficient is  $\gamma_X$ that measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
+where the general form of the activity of any species is given as ${X}$ and the activity coefficient is  $\gamma_X$ that measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
 
 K$_a$ can be corrected by using the activity coefficients of each species, defined as $\gamma_i$, can be corrected to account for the non-ideality of the solution as follows:
 $$ K^\Theta = K_a\Gamma = K_a\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}=\frac{[A^-][H^+]}{[HA]}\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}$$
