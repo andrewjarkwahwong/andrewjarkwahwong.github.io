@@ -161,6 +161,12 @@ $$U^0_{SHE} = U^0_{RHE} + 0.059pH$$
 
 Now the low-pH (pH dependent) and the high pH (non-pH dependent) cases of anion adsorption can be calculated. 
 
+## Python Script: Visualizing Anion Adsorption using the Equilibrium Adsorption Potential
+
+I have created a Google Colab link you can check out to play with a simple script to visualize anion adsorption regimes and how the equilibrium adsorption potenital relates. 
+
+GoogleColab: https://colab.research.google.com/drive/17M9gAGZCiIyxxdshJ-f6leRZQpKLwpFI?usp=sharing
+
 
 ## Considerations of the Electrochemical Double Layer and Constant Potential
 
