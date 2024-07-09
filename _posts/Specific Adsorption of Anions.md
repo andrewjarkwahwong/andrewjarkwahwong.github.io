@@ -15,7 +15,7 @@ The goal of this blog post is to <ins>Calculate potential and pH-dependent equil
 
 The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant ($K_a$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
 
-$$ HA \leftrightarrow H^+ + A^- $$
+$$ HA_{(aq)} \leftrightarrow A^-_{(aq)} + H^+_{(aq)} $$
 
 where $A^-$ is the conjugate base of the acid and $H^+$ is the proton in solution. All species are in the solution-phase for clarity. The equilibrium constant, $K_a$, is defined as:
 
