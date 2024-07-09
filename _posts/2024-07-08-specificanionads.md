@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Specific Anion Adsorption: Equilibrium Potentials
+title: Equilibrium Anion Adsorption Potential
 date: 2024-07-08 11:12:00-0400
 description: Calculating Equilibrium Potential of Specific Anion Adsorption 
 tags: DFT Ions
@@ -41,7 +41,7 @@ $$ \{X\}=[X]\gamma_X$$
 
 where the general form of the activity of any species is given as $\{X\}$ and the activity coefficient is  $\gamma_X$ that measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
 
-K$_a$ can be corrected by using the activity coefficients of each species, defined as $\gamma_i$, can be corrected to account for the non-ideality of the solution as follows:
+$K_a$ can be corrected by using the activity coefficients of each species, defined as $\gamma_i$, can be corrected to account for the non-ideality of the solution as follows:
 
 $$ K^\Theta = K_a\Gamma = K_a\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}=\frac{[A^-][H^+]}{[HA]}\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}$$
 
