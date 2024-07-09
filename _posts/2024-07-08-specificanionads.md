@@ -13,18 +13,18 @@ The goal of this blog post is to <ins>Calculate potential and pH-dependent equil
 
 # Review: pKa and pH
 
-The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant ($K_a$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
+The adsorption of anions are dependent on the pH of the solution. The acid dissociation constant (K$_a$) is crucial in understanding the form of the anion upon adsorption at the surface. The strength of the acid is based on the equilibrium constant of acid dissociation given as:
 
 $$ HA_{(aq)} \leftrightarrow A^-_{(aq)} + H^+_{(aq)} $$
 
-where $A^-$ is the conjugate base of the acid and $H^+$ is the proton in solution. All species are in the solution-phase for clarity. The equilibrium constant, $K_a$, is defined as:
+where A$^-$ is the conjugate base of the acid and $H^+$ is the proton in solution. All species are in the solution-phase for clarity. The equilibrium constant, K$_a$, is defined as:
 
 
 $$
 K_a = \frac{[A^-][H^+]}{[HA]}
 $$
 
-where a higher $K_a$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
+where a higher K$_a$ corresponds to a stronger acid (more dissociated at equilibrium). Assuming concentrations are sufficient for an ideal solution (activities are equivalent to the concentrations), the pKa is defined as:
 
 $$ pK_a = -log_{10}K_a$$
 
