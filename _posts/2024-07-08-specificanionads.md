@@ -106,7 +106,7 @@ $$U^0_{SHE} = U^0_{abs} + \Delta U_{abs \rightarrow SHE}$$
 
 $$U^0_{SHE} =\frac{G_{A^*_{(g)}} - G_{A^-_{(g)}} - G_{*_{(g)}}+\Delta\Delta G_{solv}}{|e|} + \Delta U_{abs \rightarrow SHE}$$
 
-where $\Delta U_{abs \rightarrow NHE}$ ranges from -4.2 to 5.0 V-SHE. Finally, we have derived the equilibrium adsorption potential on an SHE from DFT for the case of high pH.
+where the conversion from U-abs to U-SHE ranges from -4.2 to 5.0 V-SHE. Finally, we have derived the equilibrium adsorption potential on an SHE from DFT for the case of high pH.
 
 ## Low pH Case
 
