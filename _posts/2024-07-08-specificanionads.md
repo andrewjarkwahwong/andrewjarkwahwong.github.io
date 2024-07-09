@@ -28,24 +28,29 @@ where a higher K$_a$ corresponds to a stronger acid (more dissociated at equilib
 
 $$ pK_a = -log_{10}K_a$$
 
-where this convenient scale defines lower $pK_a$ as stronger acids (larger $K_a$).
+where this convenient scale defines lower pK$_a$ as stronger acids (larger $K_a$).
 
 ## Ideality and Activities
-Note that ideality was assumed, where concentrations are sufficient $[X]$. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions [https://en.wikipedia.org/wiki/Acid_dissociation_constant].
+Note that ideality was assumed, where concentrations are sufficient [X]. In a solution with varying ionic strengths, temperatures, compositions, and pressures, this is assumption is not always true. The Figure below shows a case of acetic acid is dependent on the ionic strength, where ideality deviates with stronger ionic solutions [https://en.wikipedia.org/wiki/Acid_dissociation_constant].
 
-![PK_acetic_acid.png](../assets/img/PK_acetic_acid.png)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/PK_acetic_acid.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
-The activity, $\alpha$ , is a measure of the "effective concentration" or "real concentration". In the simplest form, the activity of any species at equilibrium is defined as:
+
+The activity is a measure of the "effective concentration" or "real concentration". In the simplest form, the activity of any species at equilibrium is defined as:
 
 $$ \{X\}=[X]\gamma_X$$
 
-where the general form of the activity of any species is given as $\{X\}$ and the activity coefficient is  $\gamma_X$ that measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
+where the general form of the activity of any species is given as {X}. The activity coefficient measures the ideality of species X. An activity coefficient of one indicates complete ideality. 
 
-$K_a$ can be corrected by using the activity coefficients of each species, defined as $\gamma_i$, can be corrected to account for the non-ideality of the solution as follows:
+K$_a$ can be corrected by using the activity coefficients of each species can be corrected to account for the non-ideality of the solution as follows:
 
 $$ K^\Theta = K_a\Gamma = K_a\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}=\frac{[A^-][H^+]}{[HA]}\frac{\gamma_A^- \gamma_H^+}{\gamma_{HA}}$$
 
-where $\Gamma$ is the activity quotient for the reaction. Henry's and Raoult's law are used to provide a estimates of the activity coefficient. 
+where $$\Gamma$$ is the activity quotient for the reaction. Henry's and Raoult's law are used to provide a estimates of the activity coefficient. 
 
 
 ## Proton Affinity
@@ -160,8 +165,8 @@ Now the low-pH (pH dependent) and the high pH (non-pH dependent) cases of anion 
 The following Jupyter notebook visually shows how varying the equilibrium adsorption potential introduces new potential regimes where anions can adsorb (the green).
 
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/AnionEqAds.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/AnionEqAds.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
 {% jupyter_notebook jupyter_path %}
 {% else %}
