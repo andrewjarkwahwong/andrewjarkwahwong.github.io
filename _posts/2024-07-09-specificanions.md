@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basics of Specific Anion Adsorption
-date: 2024-07-10 11:12:00-0400
+date: 2024-07-08 11:12:00-0400
 description: Basics of Calculating the Equilibrium Potential of Specific Anion Adsorption
 tags: anion
 categories: sample-posts
