@@ -8,7 +8,7 @@ related_posts: false
 
 It still feels surreal that I passed my doctoral defense. Thank you to Mike, my committee (Prof. Ismaila Dabo, Prof. Rob Rioux, and Prof. Ray Schaak), and my friends/families for taking time to hear about my work.
 
-![DEFENSE.jpeg](../assets/img/DEFENSE.jpeg)
+![DEFENSE.jpeg](/assets/img/DEFENSE.jpeg)
 
 The title of my disseration was "Electrocatalysis at the atomic scale: complextities at the electrode-electrolyte interface".
 
@@ -20,7 +20,7 @@ Two quotes resonated with me throughout my Ph.D.
 > —Isaac Newton
 The completion of my Ph.D. is not possible without the brilliant academics and labmates that helped along the way. I feel my Ph.D. is unique in that I had the opportunity to work with so many teams of different backgrounds, providing me unique perspectives and great personalities to work with during my Ph.D.
 
-![DEFENSE1.jpeg](../assets/img/DEFENSE1.jpeg)
+![DEFENSE1.jpeg](/assets/img/DEFENSE1.jpeg)
 
 
 Outside of my academic circle, my girlfriend, friends, family, and my cat has been supportive network that has supported me through my Ph.D. and life. 
