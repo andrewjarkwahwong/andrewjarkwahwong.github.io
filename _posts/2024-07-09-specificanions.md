@@ -8,7 +8,6 @@ categories: sample-posts
 related_posts: false
 featured: true
 ---
-Date: 7/8/2024
 
 # Overview:
 The goal of this blog post is to <ins>Calculate potential and pH-dependent equilibrium potentials of anion specific adsorption on metals using DFT.</ins>
