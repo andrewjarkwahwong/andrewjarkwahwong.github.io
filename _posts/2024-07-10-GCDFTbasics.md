@@ -41,7 +41,7 @@ When we adsorb Na onto the metal, Na donates electrons to the metal. This change
 
 This is an issue as 1) the two states of interest are not compared at the same potentials (not apples-to-apples) and 2) they are not necessarily the potential of interest. This is purely an artifact of the DFT simulation being a canonical simulation.
 
-In real life in an actual electrochemical experiment, the potential of these two states or the metal surface is kept at a constant potential by varying the number of electrons. The potentiostat is the tool that essentially injects/removes electrons on the surface to maintain a specific potential. Here, the DFT simulation needs a "computational potentiostat" to correct the simulation to a specific potential as shown in Figure b, essentially modeling a Grand Canonical simulations.
+In real life in an actual electrochemical experiment, the potential of these two states or the metal surface is kept at a constant potential by varying the number of electrons. The potentiostat is the tool that essentially injects/removes electrons on the surface to maintain a specific potential. Here, the DFT simulation needs a "computational potentiostat" to correct the simulation to a specific potential as shown in Figure b, essentially modeling a Grand Canonical simulation.
 # Grand Canonical Density Functional Theory
 
 The dilemma is defined but what are the solutions to convert a Canonical DFT simulation to an Grand Canonical simulation? Here, I discuss two ways to understandThen, we briefly discuss the fundamentals and a brief introduction of Grand Canonical DFT methods.
