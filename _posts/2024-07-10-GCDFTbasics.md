@@ -83,7 +83,7 @@ $$ \Omega(y) = F(x)-xy$$
 where for our case it is defined as:
 
 $$\Omega(\mu) = F(N)-\mu N$$ 
-w
+
 Here, we converted the Canonical energy to a Grand Canonical energy by performing a legendre transform. The chemical potential represents the change in energy to add or subtract number of electrons. The last term represents the energy to gain or lose electrons as the number of electrons are changed. Once again, if we knew how the chemical potential of the electron changes as we change the number of electrons, we know how to calculate the Grand Canonical Energy.
 
 If we take the equation we derived previously based on electrostatics, we can write the following expression that looks quite similar as:
