@@ -14,7 +14,7 @@ featured: true
 The goal of this blog post is to explain the issue with "default" DFT simulations and how (analytical) Grand Canonical DFT can provide steps closer to achieving "more realistic simulations" for electrocatalysis
 # Problems with DFT Simulations as Models for Electrocatalysis
 
-DFT simulations have been instrumental in studying wide range of physics, chemistry, and material science problems. However, determining simulations for electrocatalysis is challenging. In particular, we will introduce and address the main two concerns: 1) implementation of a Potentiostat and 2) incorporation of the electrode-electrolyte interface. 
+DFT simulations have been instrumental in studying wide range of physics, chemistry, and material science problems. However, determining appropriate DFT simulations for electrocatalysis is challenging. In particular, we will introduce the dilemma that DFT simulations are inherently Canonical simulations (where the number of electrons is constant and the potential is varied) but the electrochemical system we are trying to model is a Grand Canonical (where the number of electrons are varied and the potential is constant). I will briefly introduce the dilemma as well as provide both an electrostatic and thermodynamic derivation to correct DFT energies to Grand Canonical energies. Hopefully, you understand the dilemma and how to approach it. 
 
 ## The Dilemma: Constant Charge to Constant Potential
 DFT simulations can be seen as a "snapshot" of different ground-energy states along a reaction path. Consider a simple reaction of $$Na^+_{(g)}$$  adsorbing onto a metal surface. This reaction can be written as:
