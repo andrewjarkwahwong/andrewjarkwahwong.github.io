@@ -27,7 +27,7 @@ $$\Delta G_{ads}=G_{e^-}+G_{Na*}-G_{*}-G_{Na^+}$$
 
 $$\Delta G_{ads}(U_{abs})=-|e|U_{abs}+G_{Na*}-G_{*}-G_{Na^+}$$
 
-where solvation is currently neglected. This seems straightforward to calculate as only the free energy of Na*, the bare surface, and the $$Na^+$$ in the gas-phase are needed. However, the dilemma of modeling this in a DFT cell is the fact that the simulations are not simulated at the constant and correct potential. This is an artifact of the DFT simulation being constant charge (constant number of electrons) rather than being constant postant. This dilemma is illustrated in the figure below.
+where solvation is currently neglected. This seems straightforward to calculate as only the free energy of Na*, the bare surface, and the $$Na^+$$ in the gas-phase are needed. However, the dilemma of modeling this in a DFT cell is the fact that the simulations are not simulated at the constant and correct potential. This is an artifact of the DFT simulation being constant charge (constant number of electrons) rather than being constant potential. This dilemma is illustrated in the figure below.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
