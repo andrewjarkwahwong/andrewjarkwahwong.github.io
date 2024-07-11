@@ -72,7 +72,9 @@ $$H=E+PV $$
 where the constant pressure is assumed.
 
 Here, we will use a more thermodynamically correct term of the Helmholtz Free Energy to represent the thermodynamic potential energy of a canonical simulation which is defined as:
+
 $$ F = E - TS$$
+
 where $$E$$ is the internal energy, $$T$$ is the temperature, and $$S$$ is the entropy. The Helmholtz free energy is the thermodynamic potential of a system at thermodynamic equilibrium from which all $$T$$ and volume,$$V$$ ,are constant. More importantly, the number of electrons or $$N$$ are constant.
 
 A Grand Canonical simulation is a system at thermodynamic equilibrium
