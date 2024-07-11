@@ -18,10 +18,15 @@ DFT simulations have been instrumental in studying wide range of physics, chemis
 
 ## The Dilemma: Constant Charge to Constant Potential
 DFT simulations can be seen as a "snapshot" of different ground-energy states along a reaction path. Consider a simple reaction of $$Na^+_{(g)}$$  adsorbing onto a metal surface. This reaction can be written as:
+
 $$ Na^+_{(g)} + * \rightarrow Na* + e^-  $$
+
 where the free energy change as a function of the applied potential on an absolute scale, $$U_{abs}$$ can be defined as:
+
 $$\Delta G_{ads}=G_{e^-}+G_{Na*}-G_{*}-G_{Na^+}$$
+
 $$\Delta G_{ads}(U_{abs})=-|e|U_{abs}+G_{Na*}-G_{*}-G_{Na^+}$$
+
 where solvation is currently neglected. This seems straightforward to calculate as only the free energy of Na*, the bare surface, and the $$Na^+$$ in the gas-phase are needed. However, the dilemma of modeling this in a DFT cell is the fact that the simulations are not simulated at the constant and correct potential. This is an artifact of the DFT simulation being constant charge (constant number of electrons) rather than being constant postant. This dilemma is illustrated in the figure below.
 
 <div class="row mt-3">
@@ -30,7 +35,11 @@ where solvation is currently neglected. This seems straightforward to calculate 
     </div>
 </div>
 
-As seen above, the initial state (the bare metal surface with $$Na^+$$ in the gas-phase) is at the potential of zero charge of the bare metal in vacuum ($$U_{pzc,*}$$ $$\approx$$ 0.5 V-SHE). When we adsorb Na onto the metal, Na donates electrons to the metal. This changes the energy of the electron (fermi energy) and thus, the measured $$U_{pzc,Na*}$$ $$\approx$$ -0.7 V-SHE. This is an issue as 1) the two states of interest are not compared at the same potentials (not apples-to-apples) and 2) they are not necessarily the potential of interest. This is purely an artifact of the DFT simulation being a canonical simulation.
+As seen above, the initial state (the bare metal surface with $$Na^+$$ in the gas-phase) is at the potential of zero charge of the bare metal in vacuum ($$U_{pzc,*}$$ $$\approx$$ 0.5 V-SHE). 
+
+When we adsorb Na onto the metal, Na donates electrons to the metal. This changes the energy of the electron (fermi energy) and thus, the measured $$U_{pzc,Na*}$$ $$\approx$$ -0.7 V-SHE.
+
+This is an issue as 1) the two states of interest are not compared at the same potentials (not apples-to-apples) and 2) they are not necessarily the potential of interest. This is purely an artifact of the DFT simulation being a canonical simulation.
 
 In real life in an actual electrochemical experiment, the potential of these two states or the metal surface is kept at a constant potential by varying the number of electrons. The potentiostat is the tool that essentially injects/removes electrons on the surface to maintain a specific potential. Here, the DFT simulation needs a "computational potentiostat" to correct the simulation to a specific potential as shown in Figure b, essentially modeling a Grand Canonical simulations.
 # Grand Canonical Density Functional Theory
@@ -40,7 +49,9 @@ The dilemma is defined but what are the solutions to convert a Canonical DFT sim
 ## The Fundamentals of Corrections to Constant Potential
 ### Electrostatic Explanation
 
-A given reaction state,$$\lambda$$, can be given in a generalized form and assigned at a potential of zero charge, $$U_{pzc,\lambda}$$.  This is seen above where the potential of the bare metal surface is $$U_{pzc,*}$$ $$\approx$$ 0.5 V-SHE and the potential of the Na* is $$U_{pzc,*}$$ $$\approx$$ -0.7 V-SHE, where $$\lambda$$ is respectively * and Na*. Here, we can generally write the corrected Grand Canonical energy of a reaction state, $$\Omega_{\lambda}(U)$$,  as:
+A given reaction state,$$\lambda$$, can be given in a generalized form and assigned at a potential of zero charge, $$U_{pzc,\lambda}$$.  This is seen above where the potential of the bare metal surface is $$U_{pzc,*}$$ $$\approx$$ 0.5 V-SHE and the potential of the Na* is $$U_{pzc,*}$$ $$\approx$$ -0.7 V-SHE, where $$\lambda$$ is respectively * and Na*. 
+
+Here, we can generally write the corrected Grand Canonical energy of a reaction state, $$\Omega_{\lambda}(U)$$,  as:
 
 $$\Omega_{\lambda}(U) =G_{\lambda}(U) = G_{\lambda}(U_{pzc,\lambda})+E_{charging}$$
 
@@ -56,7 +67,7 @@ where if we knew how the potential difference (voltage) changes as we charge the
 
 ### Thermodynamic Explanation
 
-We cheated a bit before by assuming the energy of the canonical simulation is the Gibbs Free energy. In short, we basically assumed the Helmholtz Free energy and the Gibbs Free energy to be similar because we assume the internal energy,$E$ and enthalpy,$H$, are equivalent:
+We cheated a bit before by assuming the energy of the canonical simulation is the Gibbs Free energy. In short, we basically assumed the Helmholtz Free energy and the Gibbs Free energy to be similar because we assume the internal energy,$$E$$, and enthalpy,$$H$$, are equivalent:
 $$H=E+PV $$
 where the constant pressure is assumed.
 
@@ -80,24 +91,28 @@ If we take the equation we derived previously based on electrostatics, we can wr
 $$\Omega(\mu) = F(N)-\mu N \approx G_{\lambda}(U_{pzc,\lambda})-\int_{q=0}^{q(U)}Udq$$
 
 where here is the relationship between electrostatics and thermodynamics again if we (confusingly) assume $$F(N)\approx G_{\lambda}(U_{pzc,\lambda})$$. Hopefully, this alternative explanation has some help in understanding how we can obtain Grand Canonical Free Energies.  FYI, the negative term indicates the adding electrons decreases the energy of the system.
+
 # Explicit vs Analytical Potentiostats
 
 From the derivations, the dilemma remains that we need an approximation of how the approximate the energy to charge a reaction state to a specific potential either from  $$-\int_{q=0}^{q(U)}Udq$$ or $$-\mu N$$. These forms are generally unknown and there are two ways to approximate these terms. 
 
-First is to explicitly model a potentiostat to approximate the energy to charge the system. I will not go too in depth and further readings are at the end. In a nutshell, there simulation methods that essentially inject or remove electrons in the DFT simulation to correct to the $U$ defined. If you know how many electrons you added or remove, you know $$N$$ and you can approximate $$\mu$$ by your description of how the energy cost of adding electrons in vacuum or in a media in the DFT cell that represents the electrolyte. Thus, you can explicitly model DFT simulations at different potentials without the simulation failing or crashing. The disadvantage of these methods are its computational cost and the approximation of the electrolyte that is ill-defined experimentally, which dictations $$\mu$$ and $$N$$ essentially.
+First is to explicitly model a potentiostat to approximate the energy to charge the system. I will not go too in depth and further readings are at the end. In a nutshell, there simulation methods that essentially inject or remove electrons in the DFT simulation to correct to the $$U$$ defined. If you know how many electrons you added or remove, you know $$N$$ and you can approximate $$\mu$$ by your description of how the energy cost of adding electrons in vacuum or in a media in the DFT cell that represents the electrolyte. Thus, you can explicitly model DFT simulations at different potentials without the simulation failing or crashing. The disadvantage of these methods are its computational cost and the approximation of the electrolyte that is ill-defined experimentally, which dictations $$\mu$$ and $$N$$ essentially.
 
 The second way is the analytically determine the charging energy. If we assume a potential-independent capacitance, we can derive the energy to charge our DFT reaction state as:
 
 $$ E_{charging} = -\int_{q=0}^{q(U)}\frac{q}{C}dq=-\frac{1}{2}\frac{q^2}{C}=-\frac{1}{2}C(U-U_{pzc,\lambda})^2$$
+
 where now the energy to charge a DFT reaction state to a specific potential based on a potential-independent capacitance is:
+
 $$\Omega_{\lambda}(U) = G_{\lambda}(U_{pzc,\lambda})-\frac{1}{2}C(U-U_{pzc,\lambda})^2$$
+
 Here, we can calculate the "correct" Grand Canonical potential of any state if we knew the capacitance. This can be estimated experimentally or from simulations. If you wanted to use an expression of a potential-dependent capacitance, you just have to rederive the integral. The advantage of this approach is that you can analytically (without coding into a Fortran VASP simulation) evaluate the Grand Canonical DFT energy. Of course, careful treatment must be considered as this assume that the reaction state at $$U_{pzc,\lambda}$$ remains unperturbed at $$U$$, which may not be true. 
 # Outlook and Further Readings
 
 Here we overviewed the dilemma of "default" DFT simulations to model Grand Canonical or Constant potential simulations. We derived both the theory to calculate Grand Canonical DFT simulations and introduced approaches that addresses these dilemmas. 
 
 For further readings, consider the following:
-- [This paper has great derivations of what I discussed and explicit DFT approaches.]([Electrochemistry from the atomic scale, in the electronically grand-canonical ensemble | The Journal of Chemical Physics | AIP Publishing](https://pubs.aip.org/aip/jcp/article/157/18/180902/2842002/Electrochemistry-from-the-atomic-scale-in-the))
+- [This paper has great derivations of what I discussed and explicit DFT approaches.](https://pubs.aip.org/aip/jcp/article/157/18/180902/2842002/Electrochemistry-from-the-atomic-scale-in-the)
 - [This work also compares between different Grand Canonical DFT approaches](https://doi.org/10.1002/cphc.202300950)
 - [This is our Analytical DFT paper](https://doi.org/10.1016/j.jcat.2024.115360)
-- [This paper compares explicit and analytical Grand Canonical DFT approaches]([Controlled Electrochemical Barrier Calculations without Potential Control | Journal of Chemical Theory and Computation (acs.org)](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00836)): 
+- [This paper compares explicit and analytical Grand Canonical DFT approaches](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00836)): 
