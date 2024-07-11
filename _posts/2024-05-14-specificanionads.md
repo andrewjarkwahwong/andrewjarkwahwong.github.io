@@ -3,7 +3,7 @@ layout: post
 title: Basics of Equilibrium Anion Adsorption Potentials
 date: 2024-07-08 11:12:00-0400
 description: Calculating Equilibrium Potential of Specific Anion Adsorption 
-tags: anions
+tags: anions DFT basics
 categories: ion-adsorption
 related_posts: false
 featured: true
