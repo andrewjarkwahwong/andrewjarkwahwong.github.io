@@ -109,7 +109,7 @@ $$\Omega_{\lambda}(U) = G_{\lambda}(U_{pzc,\lambda})-\frac{1}{2}C(U-U_{pzc,\lamb
 Here, we can calculate the "correct" Grand Canonical potential of any state if we knew the capacitance. This can be estimated experimentally or from simulations. If you wanted to use an expression of a potential-dependent capacitance, you just have to rederive the integral. The advantage of this approach is that you can analytically (without coding into a Fortran VASP simulation) evaluate the Grand Canonical DFT energy. Of course, careful treatment must be considered as this assume that the reaction state at $$U_{pzc,\lambda}$$ remains unperturbed at $$U$$, which may not be true. 
 # Outlook and Further Readings
 
-Here we overviewed the dilemma of "default" DFT simulations to model Grand Canonical or Constant potential simulations. We derived both the theory to calculate Grand Canonical DFT simulations and introduced approaches that addresses these dilemmas. 
+Here we overviewed the dilemma of "default" DFT simulations to model Grand Canonical or Constant potential simulations. We derived both the theory to calculate Grand Canonical DFT simulations and introduced approaches that addresses these dilemmas. To be honest, I left out a lot of well-deserved theory and derivations as well as great work due to 1) keeping this concise and 2) partially I was a lil lazy.
 
 For further readings, consider the following:
 - [This paper has great derivations of what I discussed and explicit DFT approaches.](https://pubs.aip.org/aip/jcp/article/157/18/180902/2842002/Electrochemistry-from-the-atomic-scale-in-the)
