@@ -60,6 +60,7 @@ As mentioned before, the Helmholtz model can be described by a parallel plate ca
 $$\frac{C}{A}=\frac{\Delta q}{\Delta\Psi}$$
 
 The charge is related to the charge density on the electrode as:
+
 $$\Delta q= \sigma A$$
 
 Using Gauss' law, the charge density is also related to the electric field, which is constant, as:
@@ -98,6 +99,7 @@ Here, all ions are allowed to move in solution based on electrostatic interactio
 The model utilizes Maxwell-Boltzmann statistics to approximate the distribution of ions, resulting in the applied potential to decrease exponentially from the surface to the bulk solution. The derivation is a bit complicated as the Poisson-Boltzmann differential equations must be solved. However, I will highlight key equations.
 
 First, the distribution of ions $$n_i$$ are described by a Boltzmann distribution as:
+
 $$n_i = n_i^0 exp(\frac{-z_ie\Psi}{kT})$$
 
 which approximates the distribution by thermal motion as $$n_i^0$$ is the bulk concentration of the ion, e is the unit charge, $$z_i$$ is the charge of the ion, k  is the Boltzmann constant, and T is the absolute temperature. 
@@ -107,6 +109,7 @@ Now the next parts require solving a boundary condition problem and a set of dif
 First, the applied potential can be solved based on the Gouy-Chapman model as:
 
 $$\Psi(x)=\Psi_{metal} exp^{-k_{GC}x}$$
+
 which shows how the potential drop relative to the metal exponentially decays as the distance becomes larger away from the surface. Increasing the distance away from the surface induces a larger potential drop. Note that $$k_{GC}$$ here is the reciprocal of the thickness of the double layer also described as the Debye length. Larger Debye lengths lead to "less steep" of a potential drop.
 
 The electric field is taken as the negative gradient of the potential as shown before as:
@@ -152,6 +155,7 @@ There are two cases that this model shows. First, if the concentration is high, 
 # 3. Outlook
 
 A summary of the three classical model are shown in the following.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="/assets/img/cap.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -161,7 +165,7 @@ A summary of the three classical model are shown in the following.
 
 Here we can see how the capacitance can very between different models of the EDL. Despite the GCS seeming the most reasonable model, even this model lacks agreement experimentally. It does not consider adsorption and chemical reactions at the surface, reactive surfaces with complicated active sites, specific solvent interactions, anisotropic distributions between the ions and solvent outside of the simple mean field approaches, and more. I have provided further reading to touch on these topics. However, the basis of this post is to introduce these models and the intrinsic differences between these models.
 
-As always, feel free to reach out if you have any questions.
+As always, feel free to reach out if you have any questions and recommendations.
 
 ## Future Works for myself
 - Provide a Python script to model the distribution of ions and fields for each model as you change the parameters within the models (dielectric constant, distance, etc)
