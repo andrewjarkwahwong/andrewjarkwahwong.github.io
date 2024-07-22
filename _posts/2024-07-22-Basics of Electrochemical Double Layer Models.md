@@ -110,7 +110,11 @@ First, the applied potential can be solved based on the Gouy-Chapman model as:
 
 $$\Psi(x)=\Psi_{metal} exp^{-k_{GC}x}$$
 
-which shows how the potential drop relative to the metal exponentially decays as the distance becomes larger away from the surface. Increasing the distance away from the surface induces a larger potential drop. Note that $$k_{GC}$$ here is the reciprocal of the thickness of the double layer also described as the Debye length. Larger Debye lengths lead to "less steep" of a potential drop.
+which shows how the potential drop relative to the metal exponentially decays as the distance becomes larger away from the surface. Increasing the distance away from the surface induces a larger potential drop. Note that $$k_{GC}$$ here is the reciprocal of the thickness of the double layer also described as the Debye length $$\lambda_d$$. Larger Debye lengths lead to "less steep" of a potential drop.
+
+$$k_{GC} = \frac{1}{\lambda_d} = \sqrt{\frac{8\pi\rho l_B}{\epsilon_r\epsilon_0\kBT}}$$
+
+where $$\rho$$ is the ion concentration and $$l_B$$ is the Bjerrum length constant that measures the electrostatic interaction between ions (charges) in a dielectric medium. 
 
 The electric field is taken as the negative gradient of the potential as shown before as:
 
