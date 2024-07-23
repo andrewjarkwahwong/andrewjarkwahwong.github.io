@@ -112,9 +112,9 @@ $$\Psi(x)=\Psi_{metal} exp^{-k_{GC}x}$$
 
 which shows how the potential drop relative to the metal exponentially decays as the distance becomes larger away from the surface. Increasing the distance away from the surface induces a larger potential drop. Note that $$k_{GC}$$ here is the reciprocal of the thickness of the double layer also described as the Debye length $$\lambda_d$$. Larger Debye lengths lead to "less steep" of a potential drop.
 
-$$k_{GC} = \frac{1}{\lambda_d} = \sqrt{\frac{8\pi\rho l_B}{\epsilon_r\epsilon_0 k_B T}}$$
+$$\lambda_d = \frac{1}{k_{GC}} = \sqrt{\frac{\epsilon_r\epsilon_0k_B T}{2\sum z_i^2 e^2 \rho}}$$
 
-where $$\rho$$ is the ion concentration and $$l_B$$ is the Bjerrum length constant that measures the electrostatic interaction between ions (charges) in a dielectric medium. 
+where $$\rho$$ is the ion concentration, e is the elementary charge of the electron, and $$z_i$$ is the charge of the ion. Larger Debye lengths lead to "less steep" of a potential drop.
 
 The electric field is taken as the negative gradient of the potential as shown before as:
 
@@ -125,6 +125,8 @@ Lastly, the differential capacitance is described by a nasty equation as:
 $$C_{GC}=(\frac{2z^2e^2n_i^0\epsilon_r\epsilon_0}{kT})^{\frac{1}{2}} cosh(\frac{z\epsilon\Psi_{Metal}}{2kT})$$
 
 where basically the main take away is the capacitance is now dependent on the applied potential at the metal. I will later show that the capacitance shows a parabolic dependence on the applied potential. 
+
+I have provided a link to a Google Colab notebook that [models both the potential and capacitance profile as you vary the parameters in a Gouy-Chapman Model.](https://colab.research.google.com/drive/1NcmwJLPKYepk0BG2QO3KDmuZQJKYKbv7?usp=sharing)
 
 ### Limitations
 The Gouy-Chapman model has several following limitations:
