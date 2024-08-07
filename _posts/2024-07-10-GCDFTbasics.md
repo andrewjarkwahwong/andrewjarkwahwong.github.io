@@ -5,7 +5,7 @@ date: 2024-07-10 11:12:00-0400
 description: Default DFT simulations are inherently Canonical simulations. Electrocatalysis (real life) is Grand Canonical. Here we discuss how to correct DFT simulations to represent Grand Canonical Simulations.
 tags: GC-DFT DFT basics electrocatalysis math
 categories: GC-DFT
-related_posts: false
+related_posts: true
 featured: true
 ---
 
