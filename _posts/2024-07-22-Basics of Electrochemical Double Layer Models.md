@@ -114,7 +114,7 @@ which shows how the potential drop relative to the metal exponentially decays as
 
 $$\lambda_d = \frac{1}{k_{GC}} = \sqrt{\frac{\epsilon_r\epsilon_0k_B T}{2\sum z_i^2 e^2 \rho}}$$
 
-where $$\rho$$ is the ion concentration, e is the elementary charge of the electron, and $$z_i$$ is the charge of the ion. Larger Debye lengths lead to "less steep" of a potential drop.
+where $$ \rho $$ is the ion concentration, e is the elementary charge of the electron, and z$$_i$$ is the charge of the ion. Larger Debye lengths lead to a "less steep" of a potential drop.
 
 The electric field is taken as the negative gradient of the potential as shown before as:
 
