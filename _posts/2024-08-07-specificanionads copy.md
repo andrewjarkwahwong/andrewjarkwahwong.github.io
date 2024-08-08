@@ -5,7 +5,7 @@ date: 2024-08-07 11:12:00-0400
 description: Calculating Equilibrium Potential and the electrosorption valency of specifically adsorbed anions with some code too.
 tags: anions DFT basics math electrocatalysis formatting code GC-DFT
 categories: ion-adsorption
-related_posts: true
+related_posts: false
 featured: true
 ---
 # Overview

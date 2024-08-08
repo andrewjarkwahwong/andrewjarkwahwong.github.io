@@ -5,7 +5,7 @@ date: 2024-07-22 11:12:00-0400
 description: A brief overview of different models of the electrode-electrolyte interface and the resulting classical electrochemical double layer models.
 tags: EDL basics electrocatalysis math
 categories: electrochemistry
-related_posts: true
+related_posts: false
 featured: true
 ---
 # Overview
@@ -112,7 +112,7 @@ $$\Psi(x)=\Psi_{metal} exp^{-k_{GC}x}$$
 
 which shows how the potential drop relative to the metal exponentially decays as the distance becomes larger away from the surface. Increasing the distance away from the surface induces a larger potential drop. Note that $$k_{GC}$$ here is the reciprocal of the thickness of the double layer also described as the Debye length $$\lambda_d$$. Larger Debye lengths lead to "less steep" of a potential drop.
 
-$$\lambda_d = \frac{1}{k_{GC}} = {\frac{\epsilon_r\epsilon_0k_B T}{2\sum z_i^2 e^2 \rho}}^{\frac{1}{2}}$$
+$$\lambda_d = \frac{1}{k_{GC}} = ({\frac{\epsilon_r\epsilon_0k_B T}{2\sum z_i^2 e^2 \rho}})^{\frac{1}{2}}$$
 
 where $$ \rho $$ is the ion concentration, e is the elementary charge of the electron, and z$$_i$$ is the charge of the ion. Larger Debye lengths lead to a "less steep" of a potential drop.
 

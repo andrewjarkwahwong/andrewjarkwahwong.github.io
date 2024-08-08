@@ -5,7 +5,7 @@ date: 2024-07-08 11:12:00-0400
 description: Calculating Equilibrium Potential of Specific Anion Adsorption 
 tags: anions DFT basics math electrocatalysis
 categories: ion-adsorption
-related_posts: true
+related_posts: false
 featured: true
 ---
 # Overview:
