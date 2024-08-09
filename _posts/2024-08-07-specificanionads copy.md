@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Analytical Grand Canonical DFT and Anion Adsorption
+title: Analytical Grand Canonical DFT - Specific Anion Adsorption
 date: 2024-08-07 11:12:00-0400
-description: Calculating Equilibrium Potential and the electrosorption valency of specifically adsorbed anions with some code too.
+description: Using the analytical Grand Canonical DFT framework, we are calculating Equilibrium Potential and the electrosorption valency of specifically adsorbed anions with some code too.
 tags: anions DFT basics math electrocatalysis formatting code GC-DFT
 categories: ion-adsorption
 related_posts: false
@@ -190,7 +190,7 @@ df = pd.read_excel(path, sheet_name=sheet)
 The rest of the generating the inputs is self-explainatory. Note that the analytical GC-DFT framework does not incorporate explicit solvent considerations. This is easily incorporated as $$\Delta\Delta G_{solv}$$ based on whatever treatment of solvation you wish to use. In the code, we assume it to be zero as follows:
 
 ````markdown
-```python
+```
 g_solv = 0 # Solvation energies are zero for now, can input a list or array
 ```
 ````
@@ -200,7 +200,7 @@ This will need to be changed to be as a list or array for each metal of interest
 Since anion adsorption is dependent on the pH and pKa, these values will need to be user-inputs. This is shown below:
 
 ````markdown
-```python
+```
 # Values of pH
 pH=0 #pH to calculate shift 
 pKa = 3.76 #Reference pKa 
@@ -220,7 +220,7 @@ Based on the pH and pKa, it will calculate the equilibrium adsorption differentl
 Both the equilibrium adsorption potential and especially the electrosorption valency depends on the potential range used. For the allter, this is especially important for the electrosorption valency as it is potential dependent with the full model consideration of the aGC-DFT framework. Here, we calculate an "effective" electrosorption valency over a potential range specified, which is just the average electrosorption valency. The potential range inputs are defined below.
 
 ````markdown
-```python
+```
 #Potential Range of Interest
 u_low = -1 #Lower Potential V-SHE that you input
 u_high = 2 #Upper Potential V-SHE 
@@ -232,7 +232,7 @@ u = np.linspace(u_low,u_high,25)
 The specified EDL parameters are specified as a list shown below:
 
 ````markdown
-```python
+```
 er = [1,2,8,13,78.4] #Relative permittivity (Dielectric Constant)
 d = [3,4.5,6,10] #Helmholtz EDL Width in Angstrom
 ```
@@ -241,7 +241,7 @@ d = [3,4.5,6,10] #Helmholtz EDL Width in Angstrom
 Any plausiable value can be used. Note that in the code analysis that the "circle" markers extracts a combination from the specified er and d as shown:
 
 ````markdown
-```python
+```
 plot_values = [resultsEDL[(2, 3), element]['u0_2c'] for element in elements] #Plot the value of U0 at er = 2 and d=3, which you can change to whatever value
 ```
 ````
@@ -251,7 +251,7 @@ An error will show if the combination chosen isn't specified previously as these
 This conversion needs to be specified as shown below:
 
 ````markdown
-```python
+```
 vac_nhe = 4.6 #abs to SHE
 ```
 ````
@@ -262,6 +262,8 @@ The following examples are the output of this code. Note the marker is the equil
 
 ### Equilibrium Adsorption Potentials Correlating with Metal Descriptors
 
+Here the equilibrium adsorption potential (of acetate adsorption) for different dielectric constants and EDL widths are plotted against various metal descriptors. This is shown for the case of (111) late-transition metal surfaces when the pH < pKa. The markers are the equilibrium adsorption potentials at a dielectric constant of 2 and a EDL width of 3 angstroms. Here, we observed that the O* binding may be a potential descriptor for acetate adsorption on (111) metal surfaces.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="/assets/img/UvsM.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -269,6 +271,8 @@ The following examples are the output of this code. Note the marker is the equil
 </div>
 
 ### Electrosorption Valencies
+
+Similarly, the electrosorption valency of acetate adsorbed on different metals is plotted against the same metal descriptors. Note, that the electrosorption valency is usually more negative than -1. If the $$l = -1$$ like for Acetate on Ag(111), the adsorbed acetate undergoes approximately one electron transfer from the metal to the anion, neutralizing acetate to have a neutral charge. However, most metals $$l < -1$$, indicating that more than one (non-integer) electron is transfered to the anion like on Pt(111) with $$l = -1.2$$. This would indicate that surface-bound acetate exhibits a partial negative charge (i.e. -0.2 for Pt(111)). Interestingly, the work function of the metal may be indicative of the propensity of the anion to exhibit a more negative electrosorption valency. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -278,6 +282,13 @@ The following examples are the output of this code. Note the marker is the equil
 
 
 # 4. References
+If you enjoyed this post and want to learn more, I have provided additional reading and scripts that are related.
 
+Scripts:
+[Python scripts to replicate this work are placed in the DFTAnionAdsorption GitHub repo.](https://github.com/andrewjarkwahwong/DFTanionadsorption)
+
+
+Readings: 
+[A review of anion adsorption and its pH dependence is discussed in my previous blog post.](https://andrewjarkwahwong.github.io/blog/2024/specificanionads/)
 [Electrosorption Valency and Partial Charge Transfer in Halides](https://pubs.acs.org/doi/10.1021/la980692t)
 [To learn more about the intricacies of the EDL and current models, my recent blog post covers this topic.](https://andrewjarkwahwong.github.io/blog/2024/Basics-of-Electrochemical-Double-Layer-Models/)

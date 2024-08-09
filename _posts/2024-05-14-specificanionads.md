@@ -173,3 +173,4 @@ Here, the simulations are performed at constant charge (fixed number of electron
 
 More information to learn about our Analytical Grand Canonical DFT approach can be read more at [my GitHub Repository.](https://github.com/andrewjarkwahwong/dft-electrocatalysis-Janik)
 
+
