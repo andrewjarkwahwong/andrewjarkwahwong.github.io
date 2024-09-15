@@ -8,6 +8,6 @@ nav: false
 <!-- _pages/publications.md -->
 <div class="publications">
 
-  {% bibliography -f papers -q @*[abbr=Electrocatalysis (ECat)]* %}
+  {% bibliography -f papers -q @*[abbr=Electrocatalysis]* %}
 
 </div>
