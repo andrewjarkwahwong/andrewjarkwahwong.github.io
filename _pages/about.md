@@ -6,11 +6,10 @@ subtitle: <a href='#'>Incoming PostDoc at the Fritz Haber Institute of the Max P
 
 profile:
   align: right
-  image: Professional_2019.jpeg
+  image: IMG_8802.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ajwongphd@gmail.com</p>
-    <p>jaw6647@psu.edu</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
