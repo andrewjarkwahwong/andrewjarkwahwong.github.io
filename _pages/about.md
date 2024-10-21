@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Incoming PostDoc at the Fritz Haber Institute of the Max Plank Society, and 5th year Ph.D. Chemical Engineering Researcher with Prof. Mike Janik at Penn State University</a>.
+subtitle: <a href='#'>PostDoc at the Fritz Haber Institute of the Max Plank Society, and orevious Ph.D. Chemical Engineering Researcher with Prof. Mike Janik at Penn State University</a>.
 
 profile:
   align: right
