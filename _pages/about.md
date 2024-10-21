@@ -5,10 +5,8 @@ permalink: /
 subtitle: <a href='#'>PostDoc at the Fritz Haber Institute of the Max Plank Society, and orevious Ph.D. Chemical Engineering Researcher with Prof. Mike Janik at Penn State University</a>.
 
 profile:
-  align: right
   image: 2024me.jpg
   image_circular: false # crops the image to make it circular
-  transform: rotate(90deg) 
   more_info: >
     <p>ajwongphd@gmail.com</p>
 
