@@ -8,6 +8,7 @@ profile:
   align: right
   image: 2024me.jpg
   image_circular: false # crops the image to make it circular
+  transform: rotate(-90deg) 
   more_info: >
     <p>ajwongphd@gmail.com</p>
 
