@@ -6,7 +6,7 @@ subtitle: <a href='#'>PostDoc at the Fritz Haber Institute of the Max Plank Soci
 
 profile:
   align: right
-  image: assets/img/Professional_2019.jpeg
+  image: Professional_2019.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ajwongphd@gmail.com</p>
